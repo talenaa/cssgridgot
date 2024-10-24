@@ -3,8 +3,8 @@
     height: 100%;
 
     display: grid;
-    grid-template-columns: 300px 100px;
-    grid-template-rows: 100px 300px;
+    grid-template-columns: 410px 420px;
+    grid-template-rows: 150px;
 }
 
 
@@ -14,6 +14,9 @@
 
 .blue{
     background-color: blue;
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
 }
 
 
@@ -29,4 +32,10 @@
 
 .yellow{
     background-color: yellow;
+}
+
+
+.gotposter{
+    width: 420px;
+    height: 150px;
 }
