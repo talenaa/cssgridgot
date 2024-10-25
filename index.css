@@ -2,17 +2,15 @@
     display: grid;
     grid-template-columns: 420px 420px;
     grid-template-rows: 150px 5px;
-    gap: 40px
-    ;
+    gap: 40px;
 }
 
 
 .container2{
     display: grid;
-    grid-template-columns: 150px 260px;
-    grid-template-rows: 160px 20px;
-    gap: 40px;
-    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   
 }
 
 
@@ -20,13 +18,6 @@
     display: grid;
     width: 120px;
     height: 130px;
-}
-
-.container4{
-    display: grid;
-    width: 120px;
-    height: 130px;
-   
 }
 
 
@@ -40,7 +31,6 @@ body{
     font-size: 35px;
     font-family: monospace;
     text-align: center;
-    justify-content: center;
 }
 
 
@@ -54,48 +44,58 @@ body{
 
 
 .gotPoster2{
-    display: grid;
-    grid-column: 140px 340px;
-    width: 335px;
-    height: 450px;
+    width: 330px;
+    height: 440px;
+    grid-column: 3;
+    grid-row: 1;
 }
 
 
 
 .danyFunko{
-    display: grid;
-    gap: 40px;
     width: 120px;
     height: 130px;
+    grid-column: 2;
+    grid-row: 1;
 }
 
 
 .funkoTyrion{
-    display: grid;
+    grid-column: 1;
+    grid-row: 1;
     width: 120px;
     height: 130px;
 }
 
 
 .funkoArya{
+    
+    grid-row: 1;
     width: 120px;
     height: 130px;
 }
 
 
 .brienneFunko{
+    grid-column: 4;
+    grid-row: 1;
     width: 120px;
     height: 130px;
 }
 
 
 .posterHouseOfTheDragon{
-    width: 340px;
+    width: 333px;
     height: 190px;
+    grid-column: 1;
+    grid-row: 2/2;
+
 }
 
 
 .nyraFanart{
+    grid-column: 7;
+    grid-row: 6 ;
     width: 120px;
     height: 130px;
 }
