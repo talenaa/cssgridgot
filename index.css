@@ -1,9 +1,8 @@
 .container{
     display: grid;
     grid-template-columns: 410px 420px;
-    grid-template-rows: 150px 200px;
-    width: 420px;
-    height: 200px;
+    grid-template-rows: 150px;
+    gap: 30px;
 }
 
 
@@ -15,12 +14,12 @@
 
 
 body{
-    background-color: black;
+    background-color: gray;
 }
 
 
 .white{
-    background-color: white;
+    background-color: bisque;
     font-size: 25px;
     font-family: monospace;
     text-align: center;
