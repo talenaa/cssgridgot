@@ -1,23 +1,25 @@
 body{
-    background-color: gray;
-    max-width: 300px;
-    max-height: 1000px;
+    background-color:black;
+    display: flex;
+    flex-flow: wrap;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 header{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 120px;
+    grid-template-rows: 120px 20px;
     column-gap: 40px;
-    row-gap: 15px;
+    row-gap: 40px;
 }
 
 .white{
-    background-color: white;
+    background-color: rgba(229, 5, 5, 0.632);
     font-size: 35px;
     font-family: sans-serif;
     text-align: center;
-    width: 420px;
+    width: 390px;
     height: 150px;
 }
 
@@ -25,21 +27,21 @@ header{
     width: 420px;
     height: 150px;
     display: grid;
-    grid-template-columns: 420px 150px; 
-    grid-template-rows: 420px 140px; 
 }
 
 .container2{
     display: grid;
-    grid-template-columns: 1fr 2fr 3fr 4fr 5fr;
-    grid-template-rows: 1fr 2fr;
-    column-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    row-gap: 5px;
+    column-gap: 10px;
 }
 
 
 .container3{
     display: grid;
-    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-rows: 200px 200px;
 }
 
 .gotPoster2{
@@ -48,7 +50,7 @@ header{
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 3;
 }
 
 .danyFunko{
@@ -67,7 +69,7 @@ header{
 }
 
 .funkoArya{
-    grid-column: 4;
+    grid-column: 5;
     grid-row: 2;
     width: 140px;
     height: 130px;
@@ -83,9 +85,11 @@ header{
 
 .posterHouseOfTheDragon{
     width: 350px;
-    height: 200px;
+    height: 214px;
     grid-column: 1;
     grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .nyraFanart{
