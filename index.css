@@ -1,11 +1,33 @@
-.container1{
+body{
+    background-color: gray;
+    max-width: 300px;
+    max-height: 1000px;
+}
+
+header{
     display: grid;
-    grid-template-columns: 420px 420px;
-    grid-template-rows: 150px 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 120px;
     column-gap: 40px;
     row-gap: 15px;
 }
 
+.white{
+    background-color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 420px;
+    height: 150px;
+}
+
+.gotposter{
+    width: 420px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 420px 150px; 
+    grid-template-rows: 420px 140px; 
+}
 
 .container2{
     display: grid;
@@ -18,28 +40,6 @@
 .container3{
     display: grid;
     grid-template-columns: 1fr 2fr 3fr;
-}
-
-
-body{
-    background-color: gray;
-    max-width: 300px;
-    max-height: 1000px;
-}
-
-.white{
-    background-color: bisque;
-    font-size: 35px;
-    font-family: monospace;
-    text-align: center;
-}
-
-.gotposter{
-    width: 420px;
-    height: 150px;
-    display: grid;
-    grid-template-columns: 420px 150px; 
-    grid-template-rows: 420px 140px; 
 }
 
 .gotPoster2{
